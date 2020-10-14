@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+			<title>Formulario</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+			
+	</head>
+	<body>
+			<div class="container">
+				<form action="datos.php" method="post" class="was-validated">
+				<div class="row mt-3 form-group">
+					<div class="col-12 col-md-4">
+						<label>Nombre </label>
+						<input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre" required>
+						<div class="valid-feedback">Llenado</div>
+						<div class="invalid-feedback">Obligatorio</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<label>Apellido Paterno </label>
+						<input type="text" class="form-control" placeholder="Paterno" name="apep" id="apep" required>
+                        <div class="valid-feedback">Llenado</div>
+						<div class="invalid-feedback">Obligatorio</div>					
+					</div>
+
+					<div class="col-12 col-md-4">
+						<label>Apellido Materno </label>
+						<input type="text" class="form-control" placeholder="Materno" name="apema" id="apema" required>
+                        <div class="valid-feedback">Llenado</div>
+						<div class="invalid-feedback">Obligatorio</div>    
+					</div>	
+				</div>
+				<div class="row form-group">
+					<div class="col-12 col-md-6">
+						<label>Password</label>
+						<input type="password" class="form-control" placeholder="Pass" name="pass" id="pass" required>
+                        <div class="valid-feedback">Llenado</div>
+						<div class="invalid-feedback">Obligatorio</div>    
+					</div>
+					<div class="col-12 col-md-6">
+						<label>Pais</label>
+						<select name="pais" class="form-control" id="pais" required>
+                            <div class="valid-feedback">Llenado</div>
+						    <div class="invalid-feedback">Obligatorio</div>
+							<option value="">Seleccione un Pais</option>
+							<option value="Mexico">Mexico</option>
+							<option value="Estados Unidos">Usa</option>
+							<option value="Canada">Canada</option>
+							<option value="Francia">Francia</option>
+						</select>
+					</div>
+				</div>
+				<div class="row mt-3 justify-content-center">
+					<div class="col-12 col-md-4">
+						<input type="submit" class="btn btn-outline-primary btn-block"value="Enviar">
+					</div>
+				</div>
+				</form>
+			</div>	
+			<script src="../js/jquery-3.5.1.js"></script>
+			<script src="../js/bootstrap.js"></script>
+	</body>
+</html>

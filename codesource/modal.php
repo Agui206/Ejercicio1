@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+			<title>Ventanas Modales</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+			
+	</head>
+	<body>
+			<div class="container">
+				<div class="row mt-3">
+				
+					<div class="col-4">
+							<button class="btn btn-info" data-toggle="modal" data-target="#vmodal">Primer Ventana</button>
+							<div class="modal fade" id="vmodal" tabindex="-1" role="dialog" aria-labelledby="vmodal" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											
+											<h5 class="modal-title">Titulo de Ventana</h5>
+											<button class="close" data-dismiss="modal"
+											data-toggle="modal"  aria-label="Cerrar">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<h2>Modal</h2>
+											<p>Puede que la tarea que me he impuesto de escribir una historia completa del pueblo romano desde el comienzo mismo de su existencia me recompense por el trabajo invertido en ella, no lo sé con certeza, ni creo que pueda aventurarlo. Porque veo que esta es una práctica común y antiguamente establecida, cada nuevo escritor está siempre persuadido de que ni lograrán mayor certidumbre en las materias de su narración, ni superarán la rudeza de la antigüedad en la excelencia de su estilo. Aunque esto sea así, seguirá siendo una gran satisfacción para mí haber tenido mi parte también en investigar, hasta el máximo de mis capacidades, los anales de la nación más importante del mundo, con un interés más profundo; y si en tal conjunto de escritores mi propia reputación resulta ocultada, me consuelo con la fama y la grandeza de aquellos que eclipsen mi fama. El asunto, además, es uno que exige un inmenso trabajo. Se remonta a más de 700 años atrás y, después de un comienzo modesto y humilde, ha crecido a tal magnitud que empieza a ser abrumador por su grandeza. No me cabe duda, tampoco, que para la mayoría de mis lectores los primeros tiempos y los inmediatamente siguientes, tienen poco atractivo; Se apresurarán a estos tiempos modernos en los que el poderío de una nación principal es desgastado por el deterioro interno. Yo, en cambio, buscaré una mayor recompensa a mis trabajos en poder cerrar los ojos ante los males de que nuestra generación ha sido testigo durante tantos años; tanto tiempo, al menos, como estoy dedicando todo mi pensamiento a reproducir los claros registros, libre de toda la ansiedad que pueden perturbar el historiador de su época, aunque no le puedan deformar la verdad.</p>
+										</div>
+										<div class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>	
+							</div>
+							</div>
+					<div class="col-4">
+							<button class="btn btn-outline-primary" data-toggle="modal" data-target="#grid">Segunda Ventana</button>
+							<div class="modal fade" id="grid" tabindex="-1" role="dialog" aria-labelledby="grid" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Grid con Modal</h5>
+											<button class="close" data-dismiss="modal"
+											data-toggle="modal"  aria-label="Cerrar">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										
+										<div class="modal-body">
+											<div class="container-fluid">
+												<div class="row">
+													<div class="col-12 col-sm-6">
+                                                    <h>
+													<p>Puede que la tarea que me he impuesto de escribir una historia completa del pueblo romano desde el comienzo mismo de su existencia me recompense por el trabajo invertido en ella, no lo sé con certeza, ni creo que pueda aventurarlo. Porque veo que esta es una práctica común y antiguamente establecida, cada nuevo escritor está siempre persuadido de que ni lograrán mayor certidumbre en las materias de su narración, ni superarán la rudeza de la antigüedad en la excelencia de su estilo. Aunque esto sea así, seguirá siendo una gran satisfacción para mí haber tenido mi parte también en investigar, hasta el máximo de mis capacidades, los anales de la nación más importante del mundo, con un interés más profundo; y si en tal conjunto de escritores mi propia reputación resulta ocultada, me consuelo con la fama y la grandeza de aquellos que eclipsen mi fama. El asunto, además, es uno que exige un inmenso trabajo. Se remonta a más de 700 años atrás y, después de un comienzo modesto y humilde, ha crecido a tal magnitud que empieza a ser abrumador por su grandeza. No me cabe duda, tampoco, que para la mayoría de mis lectores los primeros tiempos y los inmediatamente siguientes, tienen poco atractivo; Se apresurarán a estos tiempos modernos en los que el poderío de una nación principal es desgastado por el deterioro interno. Yo, en cambio, buscaré una mayor recompensa a mis trabajos en poder cerrar los ojos ante los males de que nuestra generación ha sido testigo durante tantos años; tanto tiempo, al menos, como estoy dedicando todo mi pensamiento a reproducir los claros registros, libre de toda la ansiedad que pueden perturbar el historiador de su época, aunque no le puedan deformar la verdad.</p>
+													</div>
+													<div class="col-12 col-sm-6">
+                                                    <h>
+													<p>Puede que la tarea que me he impuesto de escribir una historia completa del pueblo romano desde el comienzo mismo de su existencia me recompense por el trabajo invertido en ella, no lo sé con certeza, ni creo que pueda aventurarlo. Porque veo que esta es una práctica común y antiguamente establecida, cada nuevo escritor está siempre persuadido de que ni lograrán mayor certidumbre en las materias de su narración, ni superarán la rudeza de la antigüedad en la excelencia de su estilo. Aunque esto sea así, seguirá siendo una gran satisfacción para mí haber tenido mi parte también en investigar, hasta el máximo de mis capacidades, los anales de la nación más importante del mundo, con un interés más profundo; y si en tal conjunto de escritores mi propia reputación resulta ocultada, me consuelo con la fama y la grandeza de aquellos que eclipsen mi fama. El asunto, además, es uno que exige un inmenso trabajo. Se remonta a más de 700 años atrás y, después de un comienzo modesto y humilde, ha crecido a tal magnitud que empieza a ser abrumador por su grandeza. No me cabe duda, tampoco, que para la mayoría de mis lectores los primeros tiempos y los inmediatamente siguientes, tienen poco atractivo; Se apresurarán a estos tiempos modernos en los que el poderío de una nación principal es desgastado por el deterioro interno. Yo, en cambio, buscaré una mayor recompensa a mis trabajos en poder cerrar los ojos ante los males de que nuestra generación ha sido testigo durante tantos años; tanto tiempo, al menos, como estoy dedicando todo mi pensamiento a reproducir los claros registros, libre de toda la ansiedad que pueden perturbar el historiador de su época, aunque no le puedan deformar la verdad.</p>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+										</div>
+										
+										
+									</div>
+								</div>
+							
+								
+							</div>
+							 
+					</div>
+					
+					<div class="col-4">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#vmodalf">Tercer Ventana</button>
+							<div class="modal fade" id="vmodalf" tabindex="-1" role="dialog" aria-labelledby="vmodalf" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											
+											<h5 class="modal-title">Formulario con Modal</h5>
+											<button class="close" data-dismiss="modal"
+											data-toggle="modal"  aria-label="Cerrar">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										
+										<div class="modal-body">
+											<div class="container-fluid">
+												<div class="row">
+														<div class="col-12">
+															<label>Nombre </label>
+															<input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre" required>
+														</div>
+														<div class="col-12">
+															<label>Apellido Paterno</label>
+															<input type="text" class="form-control" placeholder="Apellido Paterno" name="nombre" id="nombre" required>
+														</div>
+												</div>
+												<div class="row mt-3 justify-content-center">
+														<div class="col-12 col-md-4">
+															<input type="submit" class="btn btn-outline-secondary btn-block"value="Enviar">
+														</div>
+												</div>
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											
+											<button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+										</div>
+										
+										
+									</div>
+								</div>
+							
+								
+							</div>
+							 
+					</div>
+					
+					
+				</div>	
+			</div>
+			<script src="../js/jquery-3.5.1.min.js"></script>
+			<script src="../js/bootstrap.js"></script>
+	</body>
+</html>
